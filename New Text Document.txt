@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+
+class ganaclass
+{
+public:
+    void simlpay()
+    {
+        cout<< "1000 have to pay" << endl;
+    }
+};
+int main()
+{
+    ganaclass ganaobj;
+    ganaobj.simlpay();
+    return 0;
+}
